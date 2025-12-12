@@ -1,0 +1,47 @@
+description: Ultralytics YOLO11n model trained on /kaggle/working/PDI_Project-1/data.yaml
+author: Ultralytics
+date: '2025-12-12T12:21:05.513672'
+version: 8.3.236
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: '0'
+  1: '1'
+  2: '10'
+  3: '11'
+  4: '12'
+  5: '13'
+  6: '14'
+  7: '15'
+  8: '2'
+  9: '3'
+  10: '4'
+  11: '5'
+  12: '6'
+  13: '7'
+  14: '8'
+  15: '9'
+  16: '94'
+  17: BottomLeft
+  18: BottomRight
+  19: IntersectionLeft
+  20: IntersectionRight
+  21: MediumLeft
+  22: MediumRight
+  23: SemicircleLeft
+  24: SemicircleRight
+  25: TopLeft
+  26: TopRight
+args:
+  batch: 1
+  fraction: 1.0
+  half: true
+  int8: false
+  nms: false
+channels: 3
